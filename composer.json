@@ -1,0 +1,47 @@
+{
+    "name": "xll/yii2-common",
+    "description": "common for Yii2 ",
+    "keywords": ["yii", "common"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/lswei07/yii2-common/issues",
+        "source": "https://github.com/lswei07/yii2-common"
+    },
+    "authors": [
+        {
+            "name": "lswei",
+            "email": "lswei07@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0.10",
+        "yiisoft/yii2-redis": "*",
+        "yiisoft/yii2-swiftmailer": "~2.0.0",
+        "aliyuncs/oss-sdk-php": "~2.0"
+    },
+	 "require-dev": {
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1",
+        "codeception/specify": "~0.4.3",
+         "yiisoft/yii2-gii": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "xll\\common\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+	"repositories": {
+		"packagist": {
+			"type": "composer",
+			"url": "https://packagist.phpcomposer.com"
+		}
+	}
+}
