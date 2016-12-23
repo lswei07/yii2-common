@@ -25,12 +25,15 @@ Usage
 -----
 
 yii migrate --migrationPath=@xll/common/migrations
+
 yii migrate/down --migrationPath=@xll/common/migrations
+
 yii migrate/create --migrationPath=@xll/common/migrations create_table
 
 yii gii/model   --tableName=lookup    --modelClass=Lookup --ns=xll\common\models
 
 codecept bootstrap
+
 codecept generate:test unit models\SequenceTest
 
 codecept run unit models\SequenceTest
